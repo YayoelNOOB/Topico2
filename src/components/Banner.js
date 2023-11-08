@@ -55,7 +55,7 @@ export const Banner = () => {
                         <span className="tagline">BIENVENIDO A MI PROYECTO</span>
                         <h1>{`Hola, yo soy Alejandro`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Ingeniero", "Estudiante", "Software" ]'><span className="wrap">{text}</span></span></h1>
                         <p>Dentro de este proyecto, podremos encontrar las evidencias de trabajos en clase, así como una actividad interactiva que nos permitirá aprender sobre los temas que se han estado trabajando en este parcial.</p>
-                        <button onCanPlay={() => console.log('connect')}>Vamos a ello! <ArrowRightCircle size={25} /></button>
+                        <button>Vamos a ello! <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Headder img" />

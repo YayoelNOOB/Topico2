@@ -45,11 +45,13 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={navIcon1} alt="" /></a>
-                            <a href="#"><img src={navIcon2} alt="" /></a>
-                            <a href="#"><img src={navIcon3} alt="" /></a>
+                            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_blank"><img src={navIcon1} alt="" /></a>
+                            <a href="https://www.facebook.com/yayo.junco" target="_blank"><img src={navIcon2} alt="" /></a>
+                            <a href="https://www.instagram.com/yayo.junco" target="_blank"><img src={navIcon3} alt="" /></a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}><span>A conectarse</span></button>
+                        <form action="https://www.google.com/" method="get" target="_blank">
+                            <button className="vvd">A Evaluarse</button>
+                        </form>
                     </span>
                 </Navbar.Collapse>
             </Container>
