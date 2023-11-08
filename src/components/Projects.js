@@ -1,11 +1,12 @@
 import { Container, Row, Tab, Col, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/Diagrama de Ishikawa.png";
-import projImg2 from "../assets/img/Diagrama de Parteo.png";
-import projImg3 from "../assets/img/6 Sombreros.png";
-import projImg4 from "../assets/img/foda.png";
-import projImg5 from "../assets/img/CATWDA.png";
+import projImg1 from "../assets/img/ARQUETIPO1.jpg";
+import projImg2 from "../assets/img/ARQUETIPO2.jpg";
+import projImg3 from "../assets/img/ARQUETIPO3.jpg";
+import projImg4 from "../assets/img/ARQUETIPO4.jpg";
+import projImg5 from "../assets/img/ARQUETIPO5.jpg";
+import projImg6 from "../assets/img/ARQUETIPO6.jpg";
 import projImg7 from "../assets/img/cubos.png";
 import projImg8 from "../assets/img/skate.png";
 import projImg9 from "../assets/img/games.png";
@@ -28,54 +29,33 @@ export const Projects = () => {
     const projects = [
         {
             title: "",
-            description: "Diagrama de Ishikawa",
+            description: "Aquetipos",
             imgUrl: projImg1,
         },
         {
             title: "",
-            description: "Diagrama de Pareto",
+            description: "Aquetipos",
             imgUrl: projImg2,
         },
         {
             title: "",
-            description: "6 Sombreros para Pensar",
+            description: "Aquetipos",
             imgUrl: projImg3,
         },
         {
             title: "",
-            description: "FODA",
+            description: "Aquetipos",
             imgUrl: projImg4,
         },
         {
             title: "",
-            description: "Catwda",
+            description: "Aquetipos",
             imgUrl: projImg5,
         },
         {
-
-        },
-        {
             title: "",
-            description: "¿Por qué los países Fracasan?",
-            imgUrl: projImg19,
-        },
-        {
-            title: "",
-            description: "Fuera de Serie",
-            imgUrl: projImg20,
-        },
-        {
-
-        },
-        {
-            title: "",
-            description: "Carlos Kasuga",
-            imgUrl: projImg21,
-        },
-        {
-            title: "",
-            description: "Yokoi Jenji",
-            imgUrl: projImg22,
+            description: "Aquetipos",
+            imgUrl: projImg6,
         },
     ];
 
@@ -160,9 +140,6 @@ export const Projects = () => {
                                 <Nav.Item>
                                     <Nav.Link eventKey="second">¿Quien soy yo?</Nav.Link>
                                 </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="third">Decálogo</Nav.Link>
-                                </Nav.Item>
                             </Nav>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
@@ -183,20 +160,6 @@ export const Projects = () => {
                                     <Row>
                                         {
                                             me.map((project, index) =>{
-                                                return(
-                                                    <ProjectCard 
-                                                        key={index}
-                                                        {...project}
-                                                        />
-                                                )
-                                            })
-                                        }
-                                    </Row>
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="third">
-                                    <Row>
-                                        {
-                                            deca.map((project, index) =>{
                                                 return(
                                                     <ProjectCard 
                                                         key={index}
