@@ -426,7 +426,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #aa3636 -5.91%, #bd742f 111.58%);
+  /*background: linear-gradient(90.21deg, #aa3636 -5.91%, #bd742f 111.58%);*/
   opacity: 0.85;
   position: absolute;
   width: 100%;

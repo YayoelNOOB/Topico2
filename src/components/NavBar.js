@@ -40,8 +40,9 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Inicio</Nav.Link>
-                        <Nav.Link href="#project" className={activeLink === 'project' ? 'active navbar-link' : "navbar-link"} onClick={() => onUpdateActiveLink('project')}>Proyectos</Nav.Link>
-                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : "navbar-link"} onClick={() => onUpdateActiveLink('skills')}>Actividades</Nav.Link>
+                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : "navbar-link"} onClick={() => onUpdateActiveLink('project')}>Actividades</Nav.Link>
+                        <Nav.Link href="#project" className={activeLink === 'project' ? 'active navbar-link' : "navbar-link"} onClick={() => onUpdateActiveLink('skills')}>Proyectos</Nav.Link>
+                        <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : "navbar-link"} onClick={() => onUpdateActiveLink('contact')}>Contacto</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
@@ -49,7 +50,7 @@ export const NavBar = () => {
                             <a href="https://www.facebook.com/yayo.junco" target="_blank"><img src={navIcon2} alt="" /></a>
                             <a href="https://www.instagram.com/yayo.junco" target="_blank"><img src={navIcon3} alt="" /></a>
                         </div>
-                        <form action="https://www.google.com/" method="get" target="_blank">
+                        <form action="https://forms.gle/cMHE8fsymq6rKnC36" method="get" target="_blank">
                             <button className="vvd">A Evaluarse</button>
                         </form>
                     </span>

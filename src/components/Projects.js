@@ -13,16 +13,6 @@ import projImg9 from "../assets/img/games.png";
 import projImg10 from "../assets/img/info.png";
 import projImg11 from "../assets/img/programar.png";
 import projImg12 from "../assets/img/spider.png";
-import projImg13 from "../assets/img/deca1.png";
-import projImg14 from "../assets/img/deca2.png";
-import projImg15 from "../assets/img/deca3.png";
-import projImg16 from "../assets/img/deca4.png";
-import projImg17 from "../assets/img/deca5.png";
-import projImg18 from "../assets/img/deca6.png";
-import projImg19 from "../assets/img/info1.png";
-import projImg20 from "../assets/img/info2.png";
-import projImg21 from "../assets/img/kasu.png";
-import projImg22 from "../assets/img/kenji.png";
 
 export const Projects = () => {
 
@@ -92,39 +82,6 @@ export const Projects = () => {
         },
     ];
 
-    const deca = [
-        {
-            title: "",
-            description: "",
-            imgUrl: projImg13,
-        },
-        {
-            title: "",
-            description: "",
-            imgUrl: projImg14,
-        },
-        {
-            title: "",
-            description: "",
-            imgUrl: projImg15,
-        },
-        {
-            title: "",
-            description: "",
-            imgUrl: projImg16,
-        },
-        {
-            title: "",
-            description: "",
-            imgUrl: projImg17,
-        },
-        {
-            title: "",
-            description: "",
-            imgUrl: projImg18,
-        },
-    ];
-
     return (
         <section className="project" id="project">
             <Container>
@@ -159,12 +116,12 @@ export const Projects = () => {
                                 <Tab.Pane eventKey="second">
                                     <Row>
                                         {
-                                            me.map((project, index) =>{
-                                                return(
-                                                    <ProjectCard 
+                                            me.map((project, index) => {
+                                                return (
+                                                    <ProjectCard
                                                         key={index}
                                                         {...project}
-                                                        />
+                                                    />
                                                 )
                                             })
                                         }
