@@ -47,10 +47,10 @@ export const NavBar = () => {
                     <span className="navbar-text">
                         <div className="social-icon">
                             <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_blank"><img src={navIcon1} alt="" /></a>
-                            <a href="https://www.facebook.com/yayo.junco" target="_blank"><img src={navIcon2} alt="" /></a>
-                            <a href="https://www.instagram.com/yayo.junco" target="_blank"><img src={navIcon3} alt="" /></a>
+                            <a href="https://www.facebook.com/yayo.junco" target="_blank" rel="noreferrer"><img src={navIcon2} alt="" /></a>
+                            <a href="https://www.instagram.com/yayo.junco" target="_blank" rel="noreferrer"><img src={navIcon3} alt="" /></a>
                         </div>
-                        <form action="https://forms.gle/cMHE8fsymq6rKnC36" method="get" target="_blank">
+                        <form action="https://forms.gle/cMHE8fsymq6rKnC36" method="get" target="_blank" rel="noreferrer">
                             <button className="vvd">A Evaluarse</button>
                         </form>
                     </span>

@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+//import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/fish.svg";
@@ -39,27 +39,27 @@ export const Skills = () => {
                             <p>Aquí podemos observar las diferentes actividades que se realizaron en estas semanas</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={meter1} alt="" />
                                     <h5>Diagrama de Ishikawa</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={meter2} alt="" />
                                     <h5>Diagrama de Paretto</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={meter3} alt="" />
                                     <h5>6 Sombreros</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter4} alt="Image" />
+                                    <img src={meter4} alt="" />
                                     <h5>FODA</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter5} alt="Image" />
+                                    <img src={meter5} alt="" />
                                     <h5>CATWDA</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter6} alt="Image" />
+                                    <img src={meter6} alt="" />
                                     <h5>DECÁLOGO</h5>
                                 </div>
                             </Carousel>
