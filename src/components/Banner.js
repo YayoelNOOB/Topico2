@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-//import { ArrowRightCircle } from "react-bootstrap-icons";
+import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/PP circular.png";
 //import 'animate.css';
 //import TrackVisibility from 'react-on-screen';
@@ -55,7 +55,9 @@ export const Banner = () => {
                         <span className="tagline">BIENVENIDO A MI PROYECTO</span>
                         <h1>{`Hola, yo soy Alejandro`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Ingeniero", "Estudiante", "Software" ]'><span className="wrap">{text}</span></span></h1>
                         <p>Dentro de este proyecto, podremos encontrar las evidencias de trabajos en clase, así como una actividad interactiva que nos permitirá aprender sobre los temas que se han estado trabajando en este parcial.</p>
-                        {/*<button>Vamos a ello! <ArrowRightCircle size={25} /></button> */}
+                        <form action="https://yayoelnoob.github.io/SopadeLetras/" method="get" target="_blank" rel="noreferrer">
+                            <button>Vamos a ello! <ArrowRightCircle size={25} /></button>
+                        </form>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Headder img" />
