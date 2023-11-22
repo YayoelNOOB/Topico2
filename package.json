@@ -2,7 +2,7 @@
   "name": "proyecto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://YayoelNOOB.github.io/Topico2",
+  "homepage": "https://YayoelNOOB.github.io/Proyecto_Topico/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
